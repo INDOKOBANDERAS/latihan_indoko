@@ -12,6 +12,8 @@
 </head>
 <body class="bg-white flex flex-col min-h-screen text-slate-900">
 
+<script src="{{ asset('js/main.js') }}"></script>
+
     @include('partials.header')
 
     <div class="fixed inset-0 -z-10 overflow-hidden">

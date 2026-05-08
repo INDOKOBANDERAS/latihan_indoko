@@ -12,6 +12,8 @@
 </head>
 <body class="bg-white flex flex-col min-h-screen text-slate-900">
 
+<script src="<?php echo e(asset('js/main.js')); ?>"></script>
+
     <?php echo $__env->make('partials.header', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
 
     <div class="fixed inset-0 -z-10 overflow-hidden">

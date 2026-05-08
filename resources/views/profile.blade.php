@@ -17,6 +17,8 @@
 </head>
 <body class="bg-[#f8fafc] flex flex-col min-h-screen text-slate-900">
 
+<script src="{{ asset('js/main.js') }}"></script>
+
     @include('partials.header')
 
     <div class="fixed top-0 left-0 w-full h-full -z-10 overflow-hidden">
@@ -52,8 +54,8 @@
                         Mahasiswa <span class="text-blue-600 font-semibold italic">Sistem Informasi</span> di Universitas Muhammadiyah Pontianak yang berfokus pada Modern Web Development.
                     </p>
                     <div class="flex flex-wrap justify-center md:justify-start gap-3">
-                        <span class="px-4 py-2 bg-white/50 rounded-xl text-xs font-medium border border-slate-200 shadow-sm">📍 Sambas, Kalimantan Barat</span>
-                        <span class="px-4 py-2 bg-white/50 rounded-xl text-xs font-medium border border-slate-200 shadow-sm">📧 indokobanderas784@gmail.com</span>
+                        <span class="px-4 py-2 bg-white/50 rounded-xl text-xs font-medium border border-slate-200 shadow-sm">Sambas, Kalimantan Barat</span>
+                        <span class="px-4 py-2 bg-white/50 rounded-xl text-xs font-medium border border-slate-200 shadow-sm">indokobanderas784@gmail.com</span>
                     </div>
                 </div>
             </div>
