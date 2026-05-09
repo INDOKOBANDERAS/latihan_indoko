@@ -106,4 +106,5 @@
 
     <?php echo $__env->make('partials.footer', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
 </body>
-</html><?php /**PATH D:\Praktikum 2026\latihan_indoko\resources\views/profile.blade.php ENDPATH**/ ?>
+</html>
+<?php /**PATH D:\Praktikum 2026\latihan_indoko\resources\views/profile.blade.php ENDPATH**/ ?>
