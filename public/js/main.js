@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // --- 1. EFEK CAHAYA MENGIKUTI MOUSE (SPOTLIGHT) ---
     const spotlight = document.createElement("div");
     spotlight.style.cssText = `
         position: fixed;
@@ -19,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
         spotlight.style.top = e.clientY + "px";
     });
 
-    // --- 2. ANIMASI TYPEWRITER UNTUK NAMA/JUDUL ---
     const typeTarget = document.querySelector("h1 span");
     if (typeTarget) {
         const text = typeTarget.innerText;
@@ -35,7 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
         type();
     }
 
-    // --- 3. EFEK KARTU MIRING (3D TILT) ---
     const cards = document.querySelectorAll(".glass-card");
     cards.forEach((card) => {
         card.addEventListener("mousemove", (e) => {
@@ -57,7 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // --- 4. SCROLL REVEAL (MUNCUL PERLAHAN) ---
     const observer = new IntersectionObserver(
         (entries) => {
             entries.forEach((entry) => {
