@@ -7,6 +7,64 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Project Indoko 2026 🚀
+
+## Deskripsi
+
+Project Latihan Laravel oleh **Indoko**.
+
+---
+
+## Cara Menjalankan Project (latihan_indoko)
+
+Ikuti langkah-langkah di bawah ini di terminal atau command prompt kamu untuk menjalankan aplikasi ini secara lokal:
+
+<Sequence>
+  <Step title="Clone Repository" subtitle="Langkah 1">
+    Download project dari GitHub ke komputer kamu:
+    ```bash
+    git clone [https://github.com/username-kamu/latihan_indoko.git](https://github.com/username-kamu/latihan_indoko.git)
+    ```
+    *Ubah `username-kamu` dengan username GitHub milikmu.*
+  </Step>
+
+  <Step title="Masuk ke Folder Project" subtitle="Langkah 2">
+    Pindah ke direktori project yang baru saja di-clone:
+    ```bash
+    cd latihan_indoko
+    ```
+  </Step>
+
+  <Step title="Install Dependency" subtitle="Langkah 3">
+    Install semua library PHP yang dibutuhkan melalui Composer:
+    ```bash
+    composer install
+    ```
+  </Step>
+
+  <Step title="Copy File Konfigurasi (.env)" subtitle="Langkah 4">
+    Buat file konfigurasi lingkungan aplikasi:
+    * **Windows (CMD):** `copy .env.example .env`
+    * **Linux / Mac / Git Bash:** `cp .env.example .env`
+  </Step>
+
+  <Step title="Generate Security Key" subtitle="Langkah 5">
+    ```bash
+    php artisan key:generate
+    ```
+  </Step>
+
+  <Step title="Jalankan Server Lokal" subtitle="Langkah 6">
+    Nyalakan server lokal Laravel kamu dengan perintah:
+    ```bash
+    php artisan serve
+    ```
+    Setelah berhasil, buka browser dan akses alamat `http://127.0.0.1:8000`.
+  </Step>
+</Sequence>
+
+---
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -38,21 +96,3 @@ composer require laravel/boost --dev
 
 php artisan boost:install
 ```
-
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
